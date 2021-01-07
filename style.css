@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+.name{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+
+.foot{
+	text-align: center;
+}
+
+.foot li{
+	display: inline;
+	padding: 0 15px;
+}
+
+.foot li img{
+	height: 40px;
+	width: 40px;
+}
+
+.navigation{
+    float:right;
+    margin-right: 100px;
+}
+
+.navigation ul{
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline;
+    padding: 0 15px;
+}
+
+.navigation ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#picture{
+    overflow: hidden;
+}
+
+.photo{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    margin:0 5%;
+    box-shadow: 10px 10px 20px bisque;
+}
+
+.photo img{
+    width: 100%;
+}
+
+.blue{
+    background-image: url("images/Group_33094_1.png");
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 5px;
+}
